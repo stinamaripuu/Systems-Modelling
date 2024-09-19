@@ -7,6 +7,13 @@
         <details xmi:id="_UO7UQnZdEe-b5bYGrWHT0A" key="observedFolders" value="/SysModProject/src"/>
         <details xmi:id="_ZuPcoHZdEe-b5bYGrWHT0A" key="AssociatedSourceCode" value="/SysModProject/src/TestClass.java;610131428/1;"/>
       </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_SV2dUHZeEe-3uOvjKqqVzw" source="preferences">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_SV2dUXZeEe-3uOvjKqqVzw" source="com.yattasolutions.codegen.reverse">
+          <details xmi:id="_SV2dUnZeEe-3uOvjKqqVzw" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerNewFiles" value="true"/>
+          <details xmi:id="_SV2dU3ZeEe-3uOvjKqqVzw" key="com.yattasolutions.codegen.reverse.roundtrip.RemoveDeletedFiles" value="true"/>
+          <details xmi:id="_SV2dVHZeEe-3uOvjKqqVzw" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerChangedFiles" value="true"/>
+        </contents>
+      </contents>
     </eAnnotations>
     <elementImport xmi:id="_YPm7cHZdEe-b5bYGrWHT0A">
       <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
@@ -35,9 +42,12 @@
     <elementImport xmi:id="_YSGOwHZdEe-b5bYGrWHT0A">
       <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </elementImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_XAJesHZdEe-b5bYGrWHT0A" name="TestClass">
+    <packagedElement xmi:type="uml:Class" xmi:id="_XAJesHZdEe-b5bYGrWHT0A" name="s">
       <ownedAttribute xmi:id="_YkOgkHZdEe-b5bYGrWHT0A" name="test">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jo7HoHZeEe-3uOvjKqqVzw" name="field">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_ZZJWYHZdEe-b5bYGrWHT0A" name="test"/>
     </packagedElement>

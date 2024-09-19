@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_UNWm8HZdEe-b5bYGrWHT0A">
   <modelElement href="SysModProject.uml#_UMr4kHZdEe-b5bYGrWHT0A"/>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XAMiAHZdEe-b5bYGrWHT0A" name="TestClass">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XAMiAHZdEe-b5bYGrWHT0A" name="s">
     <modelElement href="SysModProject.uml#_XAJesHZdEe-b5bYGrWHT0A"/>
     <visualProperties xmi:id="_XAMiAXZdEe-b5bYGrWHT0A" position="56.0,76.0" size="334.0,331.0"/>
     <visibility xmi:id="_XAMiAnZdEe-b5bYGrWHT0A" label="+"/>
@@ -11,6 +11,14 @@
       <cardinality xmi:id="_YkSyAnZdEe-b5bYGrWHT0A" label="1" max="1" min="1"/>
       <type xmi:id="_YkSyA3ZdEe-b5bYGrWHT0A" name="int">
         <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jo-yAHZeEe-3uOvjKqqVzw" name="field">
+      <modelElement href="SysModProject.uml#_jo7HoHZeEe-3uOvjKqqVzw"/>
+      <visibility xmi:id="_jo-yAXZeEe-3uOvjKqqVzw" label="+"/>
+      <cardinality xmi:id="_jo-yAnZeEe-3uOvjKqqVzw" label="1" max="1" min="1"/>
+      <type xmi:id="_jo-yA3ZeEe-3uOvjKqqVzw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </type>
     </attributes>
     <operations xmi:id="_ZZMZsHZdEe-b5bYGrWHT0A" name="test">
