@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_UNWm8HZdEe-b5bYGrWHT0A">
+  <modelElement href="SysModProject.uml#_UMr4kHZdEe-b5bYGrWHT0A"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XAMiAHZdEe-b5bYGrWHT0A" name="TestClass">
+    <modelElement href="SysModProject.uml#_XAJesHZdEe-b5bYGrWHT0A"/>
+    <visualProperties xmi:id="_XAMiAXZdEe-b5bYGrWHT0A" position="56.0,76.0" size="334.0,331.0"/>
+    <visibility xmi:id="_XAMiAnZdEe-b5bYGrWHT0A" label="+"/>
+    <attributes xmi:id="_YkSyAHZdEe-b5bYGrWHT0A" name="test">
+      <modelElement href="SysModProject.uml#_YkOgkHZdEe-b5bYGrWHT0A"/>
+      <visibility xmi:id="_YkSyAXZdEe-b5bYGrWHT0A" label="+"/>
+      <cardinality xmi:id="_YkSyAnZdEe-b5bYGrWHT0A" label="1" max="1" min="1"/>
+      <type xmi:id="_YkSyA3ZdEe-b5bYGrWHT0A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZZMZsHZdEe-b5bYGrWHT0A" name="test">
+      <modelElement href="SysModProject.uml#_ZZJWYHZdEe-b5bYGrWHT0A"/>
+      <visibility xmi:id="_ZZMZsXZdEe-b5bYGrWHT0A" label="+"/>
+      <cardinality xmi:id="_ZZMZsnZdEe-b5bYGrWHT0A" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

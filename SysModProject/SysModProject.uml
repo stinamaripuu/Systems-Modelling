@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_UMr4kHZdEe-b5bYGrWHT0A" name="SysModProject">
+    <eAnnotations xmi:id="_UO6tMHZdEe-b5bYGrWHT0A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_UO6tMXZdEe-b5bYGrWHT0A" source="codegen">
+        <details xmi:id="_UO6tMnZdEe-b5bYGrWHT0A" key="codegenDirectory" value="/SysModProject/src"/>
+        <details xmi:id="_UO7UQnZdEe-b5bYGrWHT0A" key="observedFolders" value="/SysModProject/src"/>
+        <details xmi:id="_ZuPcoHZdEe-b5bYGrWHT0A" key="AssociatedSourceCode" value="/SysModProject/src/TestClass.java;610131428/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_YPm7cHZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_YPm7cXZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_YPm7cnZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_YPm7c3ZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_YPm7dHZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_YPnigHZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_YPnigXZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_YPnignZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_YSGOwHZdEe-b5bYGrWHT0A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XAJesHZdEe-b5bYGrWHT0A" name="TestClass">
+      <ownedAttribute xmi:id="_YkOgkHZdEe-b5bYGrWHT0A" name="test">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_ZZJWYHZdEe-b5bYGrWHT0A" name="test"/>
+    </packagedElement>
+    <profileApplication xmi:id="_UO6tM3ZdEe-b5bYGrWHT0A">
+      <eAnnotations xmi:id="_UO7UQHZdEe-b5bYGrWHT0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_UO7UQXZdEe-b5bYGrWHT0A" base_Package="_UMr4kHZdEe-b5bYGrWHT0A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>
