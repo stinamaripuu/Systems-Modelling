@@ -5,7 +5,7 @@
       <contents xmi:type="ecore:EAnnotation" xmi:id="_UO6tMXZdEe-b5bYGrWHT0A" source="codegen">
         <details xmi:id="_UO6tMnZdEe-b5bYGrWHT0A" key="codegenDirectory" value="/SysModProject/src"/>
         <details xmi:id="_UO7UQnZdEe-b5bYGrWHT0A" key="observedFolders" value="/SysModProject/src"/>
-        <details xmi:id="_ZuPcoHZdEe-b5bYGrWHT0A" key="AssociatedSourceCode" value="/SysModProject/src/User.java;2325943065/1;/SysModProject/src/Passenger.java;2980511542/1;/SysModProject/src/Driver.java;2213865903/1;/SysModProject/src/RideRequest.java;363388/1;/SysModProject/src/CSR.java;688197914/1;/SysModProject/src/SupportTicket.java;1627091995/1;/SysModProject/src/TicketStatus.java;986958696/1;"/>
+        <details xmi:id="_ZuPcoHZdEe-b5bYGrWHT0A" key="AssociatedSourceCode" value="/SysModProject/src/User.java;3295581428/1;/SysModProject/src/Passenger.java;1551191708/1;/SysModProject/src/Driver.java;3814556598/1;/SysModProject/src/RideRequest.java;1278066518/1;/SysModProject/src/RideStatus.java;4225775050/1;/SysModProject/src/CSR.java;1983583667/1;/SysModProject/src/SupportTicket.java;2913149455/1;/SysModProject/src/TicketStatus.java;176207238/1;/SysModProject/src/Communication.java;3057776223/1;/SysModProject/src/Payment.java;3053457148/1;/SysModProject/src/PaymentMethod.java;3621351684/1;/SysModProject/src/Car.java;4035667386/1;"/>
       </contents>
       <contents xmi:type="ecore:EAnnotation" xmi:id="_SV2dUHZeEe-3uOvjKqqVzw" source="preferences">
         <contents xmi:type="ecore:EAnnotation" xmi:id="_SV2dUXZeEe-3uOvjKqqVzw" source="com.yattasolutions.codegen.reverse">
@@ -80,6 +80,10 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fo5PoIeUEe-ru6YB14sd8Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fo5PoYeUEe-ru6YB14sd8Q" value="*"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_0RXOAYfMEe-xtqHyFbNN3A" name="communication" type="_CVJjwIfLEe-xtqHyFbNN3A" association="_0RS8kIfMEe-xtqHyFbNN3A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0RXOAofMEe-xtqHyFbNN3A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0RXOA4fMEe-xtqHyFbNN3A" value="*"/>
+      </ownedAttribute>
       <ownedOperation xmi:id="_l7lSgIeQEe-ru6YB14sd8Q" name="requestRide">
         <ownedParameter xmi:id="_l7lSgYeQEe-ru6YB14sd8Q" type="_HLJOsIeREe-ru6YB14sd8Q" direction="return"/>
         <ownedParameter xmi:id="_l7mgoIeQEe-ru6YB14sd8Q" name="pickupLocation">
@@ -122,8 +126,16 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_zRe_0YeUEe-ru6YB14sd8Q" name="rideRequest" type="_HLJOsIeREe-ru6YB14sd8Q" association="_zRauYIeUEe-ru6YB14sd8Q">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zRfm4IeUEe-ru6YB14sd8Q"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zRfm4YeUEe-ru6YB14sd8Q" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zRfm4IeUEe-ru6YB14sd8Q" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zRfm4YeUEe-ru6YB14sd8Q" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8IlB4ofMEe-xtqHyFbNN3A" name="communication" type="_CVJjwIfLEe-xtqHyFbNN3A" association="_8Ika0IfMEe-xtqHyFbNN3A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IlB44fMEe-xtqHyFbNN3A"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IlB5IfMEe-xtqHyFbNN3A" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OnmFcYfOEe-xtqHyFbNN3A" name="car" type="_8YDL0IfNEe-xtqHyFbNN3A" association="_OnmFcIfOEe-xtqHyFbNN3A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OnmsgIfOEe-xtqHyFbNN3A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OnnTkIfOEe-xtqHyFbNN3A" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_ZgyeYIeTEe-ru6YB14sd8Q" name="acceptRide">
         <ownedParameter xmi:id="_ZgzFcIeTEe-ru6YB14sd8Q" name="request" type="_HLJOsIeREe-ru6YB14sd8Q"/>
@@ -183,6 +195,10 @@
       <ownedAttribute xmi:id="_sm_g8YeYEe-QZOdYxFkDJg" name="supportTicket" type="_EX-fUIeYEe-QZOdYxFkDJg" association="_sm-54IeYEe-QZOdYxFkDJg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sm_g8oeYEe-QZOdYxFkDJg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sm_g84eYEe-QZOdYxFkDJg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_mF9p0IfNEe-xtqHyFbNN3A" name="payment" type="_FVcaEIfNEe-xtqHyFbNN3A" association="_mF9CwIfNEe-xtqHyFbNN3A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mF9p0YfNEe-xtqHyFbNN3A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mF9p0ofNEe-xtqHyFbNN3A" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_OjdOIIeTEe-ru6YB14sd8Q" name="updateStatus">
         <ownedParameter xmi:id="_OjfqYIeTEe-ru6YB14sd8Q" name="newStatus" type="_aVYZgIeSEe-ru6YB14sd8Q"/>
@@ -265,6 +281,104 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_ldqt0IeYEe-QZOdYxFkDJg" name="" memberEnd="_ldr78IeYEe-QZOdYxFkDJg _ldu_QYeYEe-QZOdYxFkDJg"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_sm-54IeYEe-QZOdYxFkDJg" name="" memberEnd="_sm-54YeYEe-QZOdYxFkDJg _sm_g8YeYEe-QZOdYxFkDJg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_CVJjwIfLEe-xtqHyFbNN3A" name="Communication">
+      <ownedAttribute xmi:id="_frWowIfLEe-xtqHyFbNN3A" name="chatID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_iHAL0IfLEe-xtqHyFbNN3A" name="user1ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pGZm4IfLEe-xtqHyFbNN3A" name="user2ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ySe78IfLEe-xtqHyFbNN3A" name="content">
+        <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0RTjoIfMEe-xtqHyFbNN3A" name="passenger" type="_XN5WEIeQEe-ru6YB14sd8Q" association="_0RS8kIfMEe-xtqHyFbNN3A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0RWm8IfMEe-xtqHyFbNN3A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0RXOAIfMEe-xtqHyFbNN3A" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8Ika0YfMEe-xtqHyFbNN3A" name="driver" type="_wBTlUIeQEe-ru6YB14sd8Q" association="_8Ika0IfMEe-xtqHyFbNN3A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IlB4IfMEe-xtqHyFbNN3A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8IlB4YfMEe-xtqHyFbNN3A" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_gqwa0IfMEe-xtqHyFbNN3A" name="sendMessage">
+        <ownedParameter xmi:id="_gqxB4IfMEe-xtqHyFbNN3A" name="user1" type="_XAJesHZdEe-b5bYGrWHT0A"/>
+        <ownedParameter xmi:id="_gqxB4YfMEe-xtqHyFbNN3A" name="user2" type="_XAJesHZdEe-b5bYGrWHT0A"/>
+        <ownedParameter xmi:id="_gqxo8IfMEe-xtqHyFbNN3A" name="content">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tUT8UIfMEe-xtqHyFbNN3A" name="viewMessages">
+        <ownedParameter xmi:id="_tUT8UYfMEe-xtqHyFbNN3A" direction="return">
+          <type xmi:type="uml:Stereotype" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Array"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_tUT8UofMEe-xtqHyFbNN3A" name="userID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_0RS8kIfMEe-xtqHyFbNN3A" name="" memberEnd="_0RTjoIfMEe-xtqHyFbNN3A _0RXOAYfMEe-xtqHyFbNN3A"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8Ika0IfMEe-xtqHyFbNN3A" name="" memberEnd="_8Ika0YfMEe-xtqHyFbNN3A _8IlB4ofMEe-xtqHyFbNN3A"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FVcaEIfNEe-xtqHyFbNN3A" name="Payment">
+      <ownedAttribute xmi:id="_LJElkIfNEe-xtqHyFbNN3A" name="paymentID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OLtQIIfNEe-xtqHyFbNN3A" name="rideRequestID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PTKAYIfNEe-xtqHyFbNN3A" name="amount">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_cYFPQIfNEe-xtqHyFbNN3A" name="paymentType" type="_RE_xcIfNEe-xtqHyFbNN3A"/>
+      <ownedAttribute xmi:id="_dxqRUIfNEe-xtqHyFbNN3A" name="transactionDate">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_mF-Q4IfNEe-xtqHyFbNN3A" name="rideRequest" type="_HLJOsIeREe-ru6YB14sd8Q" association="_mF9CwIfNEe-xtqHyFbNN3A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mF-Q4YfNEe-xtqHyFbNN3A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mF-Q4ofNEe-xtqHyFbNN3A" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_i2cZ0IfNEe-xtqHyFbNN3A" name="processPayment">
+        <ownedParameter xmi:id="_i2cZ0YfNEe-xtqHyFbNN3A" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_kS-pQIfNEe-xtqHyFbNN3A" name="refund">
+        <ownedParameter xmi:id="_kS-pQYfNEe-xtqHyFbNN3A" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_RE_xcIfNEe-xtqHyFbNN3A" name="PaymentMethod">
+      <ownedLiteral xmi:id="_VdyWoIfNEe-xtqHyFbNN3A" name="CreditCard"/>
+      <ownedLiteral xmi:id="_W-VjYIfNEe-xtqHyFbNN3A" name="Cash"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mF9CwIfNEe-xtqHyFbNN3A" name="" memberEnd="_mF9p0IfNEe-xtqHyFbNN3A _mF-Q4IfNEe-xtqHyFbNN3A"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8YDL0IfNEe-xtqHyFbNN3A" name="Car">
+      <ownedAttribute xmi:id="_92SEYIfNEe-xtqHyFbNN3A" name="carID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Au0-0IfOEe-xtqHyFbNN3A" name="mark">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_B0XqkIfOEe-xtqHyFbNN3A" name="model">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_DV4goIfOEe-xtqHyFbNN3A" name="color">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Ip7NIIfOEe-xtqHyFbNN3A" name="plateNr">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_GbSLUIfOEe-xtqHyFbNN3A" name="nrOfSeats">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OnnTkYfOEe-xtqHyFbNN3A" name="driver" type="_wBTlUIeQEe-ru6YB14sd8Q" association="_OnmFcIfOEe-xtqHyFbNN3A">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OnnTkofOEe-xtqHyFbNN3A" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Onn6oIfOEe-xtqHyFbNN3A" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OnmFcIfOEe-xtqHyFbNN3A" name="" memberEnd="_OnmFcYfOEe-xtqHyFbNN3A _OnnTkYfOEe-xtqHyFbNN3A"/>
     <profileApplication xmi:id="_UO6tM3ZdEe-b5bYGrWHT0A">
       <eAnnotations xmi:id="_UO7UQHZdEe-b5bYGrWHT0A" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
