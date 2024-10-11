@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_UNWm8HZdEe-b5bYGrWHT0A">
   <modelElement href="SysModProject.uml#_UMr4kHZdEe-b5bYGrWHT0A"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZM3AUIeUEe-ru6YB14sd8Q" sourceAnchor="222.0,0.0" targetAnchor="166.0,264.0" superClass="_XAMiAHZdEe-b5bYGrWHT0A" subClass="_XN_csIeQEe-ru6YB14sd8Q">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZM3AUIeUEe-ru6YB14sd8Q" sourceAnchor="222.0,0.0" targetAnchor="165.0,264.0" superClass="_XAMiAHZdEe-b5bYGrWHT0A" subClass="_XN_csIeQEe-ru6YB14sd8Q">
     <modelElement href="SysModProject.uml#_ZMZGQIeUEe-ru6YB14sd8Q"/>
     <visualProperties xmi:id="_ZM3nYIeUEe-ru6YB14sd8Q"/>
-    <bendpoints xmi:id="_zT9sEoeUEe-ru6YB14sd8Q" sourceY="-46" targetX="-340" targetY="157"/>
-    <bendpoints xmi:id="_zT9sE4eUEe-ru6YB14sd8Q" sourceX="340" sourceY="-47" targetY="156"/>
+    <bendpoints xmi:id="_sqlAcIeYEe-QZOdYxFkDJg" sourceY="-46" targetX="-577" targetY="153"/>
+    <bendpoints xmi:id="_sqlAcYeYEe-QZOdYxFkDJg" sourceX="578" sourceY="-46" targetX="1" targetY="153"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bYl4EIeUEe-ru6YB14sd8Q" sourceAnchor="213.0,0.0" targetAnchor="166.0,264.0" superClass="_XAMiAHZdEe-b5bYGrWHT0A" subClass="_wBVagIeQEe-ru6YB14sd8Q">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bYl4EIeUEe-ru6YB14sd8Q" sourceAnchor="218.0,0.0" targetAnchor="166.0,264.0" superClass="_XAMiAHZdEe-b5bYGrWHT0A" subClass="_wBVagIeQEe-ru6YB14sd8Q">
     <modelElement href="SysModProject.uml#_bYhmoIeUEe-ru6YB14sd8Q"/>
     <visualProperties xmi:id="_bYl4EYeUEe-ru6YB14sd8Q"/>
-    <bendpoints xmi:id="_zT9sEIeUEe-ru6YB14sd8Q" sourceY="-30" targetX="233" targetY="157"/>
-    <bendpoints xmi:id="_zT9sEYeUEe-ru6YB14sd8Q" sourceX="-233" sourceY="-31" targetY="156"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fpu9IIeUEe-ru6YB14sd8Q" sourceAnchor="307.0,200.0" targetAnchor="14.0,0.0" target="_HLMSAIeREe-ru6YB14sd8Q" source="_XN_csIeQEe-ru6YB14sd8Q">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fpu9IIeUEe-ru6YB14sd8Q" sourceAnchor="306.0,200.0" targetAnchor="13.0,0.0" target="_HLMSAIeREe-ru6YB14sd8Q" source="_XN_csIeQEe-ru6YB14sd8Q">
     <modelElement href="SysModProject.uml#_foYSQIeUEe-ru6YB14sd8Q"/>
     <visualProperties xmi:id="_fpvkMIeUEe-ru6YB14sd8Q"/>
     <nameVisual xmi:id="_fpvkMYeUEe-ru6YB14sd8Q" text="">
@@ -32,11 +30,11 @@
       <cardinality xmi:id="_fpwLRIeUEe-ru6YB14sd8Q" label="*" max="-1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zRp-8IeUEe-ru6YB14sd8Q" sourceAnchor="199.0,229.0" targetAnchor="488.0,0.0" target="_HLMSAIeREe-ru6YB14sd8Q" source="_wBVagIeQEe-ru6YB14sd8Q">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zRp-8IeUEe-ru6YB14sd8Q" sourceAnchor="196.0,229.0" targetAnchor="485.0,0.0" target="_HLMSAIeREe-ru6YB14sd8Q" source="_wBVagIeQEe-ru6YB14sd8Q">
     <modelElement href="SysModProject.uml#_zRauYIeUEe-ru6YB14sd8Q"/>
     <visualProperties xmi:id="_zRp-8YeUEe-ru6YB14sd8Q"/>
     <nameVisual xmi:id="_zRp-8oeUEe-ru6YB14sd8Q" text="">
-      <visualProperties xmi:id="_zT-6MIeUEe-ru6YB14sd8Q" position="2.0,-24.66666666666663"/>
+      <visualProperties xmi:id="_zT-6MIeUEe-ru6YB14sd8Q" position="2.0,-25.0"/>
     </nameVisual>
     <sourceRole xmi:id="_zRp-84eUEe-ru6YB14sd8Q" aggregationKind="NONE" name="driver" navigable="true">
       <modelElement href="SysModProject.uml#_zRdKoIeUEe-ru6YB14sd8Q"/>
@@ -51,82 +49,50 @@
       <cardinality xmi:id="_zRqmBIeUEe-ru6YB14sd8Q" label="*" max="-1"/>
     </targetRole>
   </edges>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XAMiAHZdEe-b5bYGrWHT0A" name="User" subclassedBy="_ZM3AUIeUEe-ru6YB14sd8Q _bYl4EIeUEe-ru6YB14sd8Q">
-    <modelElement href="SysModProject.uml#_XAJesHZdEe-b5bYGrWHT0A"/>
-    <visualProperties xmi:id="_XAMiAXZdEe-b5bYGrWHT0A" italic="true" lineWidth="3.0" position="1470.0,21.0" size="334.0,264.0"/>
-    <visibility xmi:id="_XAMiAnZdEe-b5bYGrWHT0A" label="+"/>
-    <attributes xmi:id="_DsE8QIeQEe-ru6YB14sd8Q" name="userID">
-      <modelElement href="SysModProject.uml#_Dr1EoIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_DsE8QYeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_DsFjUIeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_DsFjUYeQEe-ru6YB14sd8Q" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_IqglIIeQEe-ru6YB14sd8Q" name="firstname">
-      <modelElement href="SysModProject.uml#_IqTw0IeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_IqglIYeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_IqglIoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_IqglI4eQEe-ru6YB14sd8Q" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_LetLEIeQEe-ru6YB14sd8Q" name="surname">
-      <modelElement href="SysModProject.uml#_LejaEIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_LetLEYeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_LetLEoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_LetLE4eQEe-ru6YB14sd8Q" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Pr0EsIeQEe-ru6YB14sd8Q" name="phoneNumber">
-      <modelElement href="SysModProject.uml#_PrwaUIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_Pr0EsYeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_Pr0EsoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_Pr0Es4eQEe-ru6YB14sd8Q" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_QYx4YIeQEe-ru6YB14sd8Q" name="email">
-      <modelElement href="SysModProject.uml#_QYrKsIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_QYyfcIeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_QYzGgIeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_QYzGgYeQEe-ru6YB14sd8Q" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_RGn10IeQEe-ru6YB14sd8Q" name="password">
-      <modelElement href="SysModProject.uml#_RGjkYIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_RGn10YeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_RGn10oeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_RGn104eQEe-ru6YB14sd8Q" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_SNq9cIeQEe-ru6YB14sd8Q" name="validated">
-      <modelElement href="SysModProject.uml#_SNmsAIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_SNq9cYeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_SNq9coeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_SNq9c4eQEe-ru6YB14sd8Q" name="Boolean">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_SufLgIeQEe-ru6YB14sd8Q" name="login">
-      <modelElement href="SysModProject.uml#_SuXPsIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_SufLgYeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_SufLgoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_TWgNwIeQEe-ru6YB14sd8Q" name="logout">
-      <modelElement href="SysModProject.uml#_TWb8UIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_TWgNwYeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_TWgNwoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-    </operations>
-    <operations xmi:id="_T7a4sIeQEe-ru6YB14sd8Q" name="viewProfile">
-      <modelElement href="SysModProject.uml#_T7YccIeQEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_T7a4sYeQEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_T7a4soeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-    </operations>
-  </nodes>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_9qxngIeXEe-QZOdYxFkDJg" sourceAnchor="243.0,0.0" targetAnchor="165.0,264.0" superClass="_XAMiAHZdEe-b5bYGrWHT0A" subClass="_pGK7AIeXEe-QZOdYxFkDJg">
+    <modelElement href="SysModProject.uml#_9qt9IIeXEe-QZOdYxFkDJg"/>
+    <visualProperties xmi:id="_9qxngYeXEe-QZOdYxFkDJg"/>
+    <bendpoints xmi:id="_sqlAcoeYEe-QZOdYxFkDJg" sourceY="-37" targetX="531" targetY="154"/>
+    <bendpoints xmi:id="_sqlAc4eYEe-QZOdYxFkDJg" sourceX="-530" sourceY="-38" targetX="1" targetY="153"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ldz3wIeYEe-QZOdYxFkDJg" sourceAnchor="315.0,250.0" targetAnchor="174.0,0.0" target="_EX_tcIeYEe-QZOdYxFkDJg" source="_pGK7AIeXEe-QZOdYxFkDJg">
+    <modelElement href="SysModProject.uml#_ldqt0IeYEe-QZOdYxFkDJg"/>
+    <visualProperties xmi:id="_ldz3wYeYEe-QZOdYxFkDJg"/>
+    <nameVisual xmi:id="_ldz3woeYEe-QZOdYxFkDJg" text="">
+      <visualProperties xmi:id="_ljQYcIeYEe-QZOdYxFkDJg" position="2.0,-3.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ldz3w4eYEe-QZOdYxFkDJg" aggregationKind="NONE" name="cSR" navigable="true">
+      <modelElement href="SysModProject.uml#_ldr78IeYEe-QZOdYxFkDJg"/>
+      <visualProperties xmi:id="_ljPxYoeYEe-QZOdYxFkDJg" position="41.0,1.0"/>
+      <visibility xmi:id="_ldz3xIeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_ldz3xYeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ldz3xoeYEe-QZOdYxFkDJg" aggregationKind="NONE" name="supportTicket" navigable="true">
+      <modelElement href="SysModProject.uml#_ldu_QYeYEe-QZOdYxFkDJg"/>
+      <visualProperties xmi:id="_ljQYcYeYEe-QZOdYxFkDJg" position="-127.0,-88.0"/>
+      <visibility xmi:id="_ldz3x4eYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_ldz3yIeYEe-QZOdYxFkDJg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_snAvEIeYEe-QZOdYxFkDJg" sourceAnchor="503.0,175.0" targetAnchor="0.0,139.0" target="_EX_tcIeYEe-QZOdYxFkDJg" source="_HLMSAIeREe-ru6YB14sd8Q">
+    <modelElement href="SysModProject.uml#_sm-54IeYEe-QZOdYxFkDJg"/>
+    <visualProperties xmi:id="_snAvEYeYEe-QZOdYxFkDJg"/>
+    <nameVisual xmi:id="_snAvEoeYEe-QZOdYxFkDJg" text="">
+      <visualProperties xmi:id="_sqlngIeYEe-QZOdYxFkDJg" position="1.2580645161287975,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_snAvE4eYEe-QZOdYxFkDJg" aggregationKind="NONE" name="rideRequest" navigable="true">
+      <modelElement href="SysModProject.uml#_sm-54YeYEe-QZOdYxFkDJg"/>
+      <visualProperties xmi:id="_sqlAdIeYEe-QZOdYxFkDJg" position="81.0,2.5"/>
+      <visibility xmi:id="_snAvFIeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_snAvFYeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_snAvFoeYEe-QZOdYxFkDJg" aggregationKind="NONE" name="supportTicket" navigable="true">
+      <modelElement href="SysModProject.uml#_sm_g8YeYEe-QZOdYxFkDJg"/>
+      <visualProperties xmi:id="_sqlngYeYEe-QZOdYxFkDJg" position="-202.25,2.5"/>
+      <visibility xmi:id="_snAvF4eYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_snAvGIeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wBVagIeQEe-ru6YB14sd8Q" name="Driver" associationsOut="_zRp-8IeUEe-ru6YB14sd8Q" generalizations="_bYl4EIeUEe-ru6YB14sd8Q">
     <modelElement href="SysModProject.uml#_wBTlUIeQEe-ru6YB14sd8Q"/>
     <visualProperties xmi:id="_wBVagYeQEe-ru6YB14sd8Q" position="1656.0,473.0" size="431.0,229.0"/>
@@ -237,128 +203,6 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HLMSAIeREe-ru6YB14sd8Q" name="RideRequest" associationsIn="_fpu9IIeUEe-ru6YB14sd8Q _zRp-8IeUEe-ru6YB14sd8Q">
-    <modelElement href="SysModProject.uml#_HLJOsIeREe-ru6YB14sd8Q"/>
-    <visualProperties xmi:id="_HLM5EIeREe-ru6YB14sd8Q" position="1367.0,825.0" size="503.0,283.0"/>
-    <visibility xmi:id="_HLM5EYeREe-ru6YB14sd8Q" label="+"/>
-    <attributes xmi:id="_M1TVIIeREe-ru6YB14sd8Q" name="requestID">
-      <modelElement href="SysModProject.uml#_M1N1kIeREe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_M1TVIYeREe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_M1TVIoeREe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_M1TVI4eREe-ru6YB14sd8Q" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_NcLu8IeREe-ru6YB14sd8Q" name="passengerID">
-      <modelElement href="SysModProject.uml#_NcJSsIeREe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_NcLu8YeREe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_NcLu8oeREe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_NcLu84eREe-ru6YB14sd8Q" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_ObTCkIeREe-ru6YB14sd8Q" name="driverID">
-      <modelElement href="SysModProject.uml#_ObQmUIeREe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_ObTCkYeREe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_ObTCkoeREe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_ObTCk4eREe-ru6YB14sd8Q" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_wJtogIeSEe-ru6YB14sd8Q" name="status">
-      <modelElement href="SysModProject.uml#_wJQ8kIeSEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_wJu2oIeSEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_wJu2oYeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_wJvdsIeSEe-ru6YB14sd8Q" name="RideStatus">
-        <modelElement href="SysModProject.uml#_aVYZgIeSEe-ru6YB14sd8Q"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_xb8scIeSEe-ru6YB14sd8Q" name="pickUpLocation">
-      <modelElement href="SysModProject.uml#_xb3M4IeSEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_xb8scYeSEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_xb8scoeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_xb9TgIeSEe-ru6YB14sd8Q" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_y8uisIeSEe-ru6YB14sd8Q" name="dropOffLocation">
-      <modelElement href="SysModProject.uml#_y8rfYIeSEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_y8uisYeSEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_y8uisoeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_y8uis4eSEe-ru6YB14sd8Q" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_2zCs8IeSEe-ru6YB14sd8Q" name="pickupTime">
-      <modelElement href="SysModProject.uml#_2y_CkIeSEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_2zDUAIeSEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_2zDUAYeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_2zDUAoeSEe-ru6YB14sd8Q" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_Cp0tsIeTEe-ru6YB14sd8Q" name="dropOffTime">
-      <modelElement href="SysModProject.uml#_CpxDUIeTEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_Cp0tsYeTEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_Cp0tsoeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_Cp0ts4eTEe-ru6YB14sd8Q" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_fp4HEIeUEe-ru6YB14sd8Q" name="passenger">
-      <modelElement href="SysModProject.uml#_fodx0IeUEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_fp4HEYeUEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_fp4HEoeUEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_fp4uIIeUEe-ru6YB14sd8Q" name="Passenger">
-        <modelElement href="SysModProject.uml#_XN5WEIeQEe-ru6YB14sd8Q"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_zRr0IIeUEe-ru6YB14sd8Q" name="driver">
-      <modelElement href="SysModProject.uml#_zRdKoIeUEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_zRr0IYeUEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_zRr0IoeUEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <type xmi:id="_zRr0I4eUEe-ru6YB14sd8Q" name="Driver">
-        <modelElement href="SysModProject.uml#_wBTlUIeQEe-ru6YB14sd8Q"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_OjlxAIeTEe-ru6YB14sd8Q" name="updateStatus">
-      <modelElement href="SysModProject.uml#_OjdOIIeTEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_OjmYEIeTEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_OjmYEYeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <parameters xmi:id="_OjmYEoeTEe-ru6YB14sd8Q" name="newStatus">
-        <modelElement href="SysModProject.uml#_OjfqYIeTEe-ru6YB14sd8Q"/>
-        <cardinality xmi:id="_OjmYE4eTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-        <type xmi:id="_OjmYFIeTEe-ru6YB14sd8Q" name="RideStatus">
-          <modelElement href="SysModProject.uml#_aVYZgIeSEe-ru6YB14sd8Q"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_QdhuIIeTEe-ru6YB14sd8Q" name="calculateFare">
-      <modelElement href="SysModProject.uml#_QdcOkIeTEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_QdhuIYeTEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_QdhuIoeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_UFZMsIeTEe-ru6YB14sd8Q">
-        <modelElement href="SysModProject.uml#_UFM_cIeTEe-ru6YB14sd8Q"/>
-        <type xmi:id="_UFZMsYeTEe-ru6YB14sd8Q" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_QdhuI4eTEe-ru6YB14sd8Q" name="distance">
-        <modelElement href="SysModProject.uml#_QdeDwIeTEe-ru6YB14sd8Q"/>
-        <cardinality xmi:id="_QdhuJIeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-        <type xmi:id="_QdhuJYeTEe-ru6YB14sd8Q" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_UFdeIIeTEe-ru6YB14sd8Q" name="duration">
-        <modelElement href="SysModProject.uml#_UFWJYIeTEe-ru6YB14sd8Q"/>
-        <cardinality xmi:id="_UFdeIYeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-        <type xmi:id="_UFdeIoeTEe-ru6YB14sd8Q" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XN_csIeQEe-ru6YB14sd8Q" name="Passenger" associationsOut="_fpu9IIeUEe-ru6YB14sd8Q" generalizations="_ZM3AUIeUEe-ru6YB14sd8Q">
     <modelElement href="SysModProject.uml#_XN5WEIeQEe-ru6YB14sd8Q"/>
     <visualProperties xmi:id="_XOADwIeQEe-ru6YB14sd8Q" position="1074.0,489.0" size="444.0,200.0"/>
@@ -462,29 +306,379 @@
       </outParameters>
     </operations>
   </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XAMiAHZdEe-b5bYGrWHT0A" name="User" subclassedBy="_ZM3AUIeUEe-ru6YB14sd8Q _bYl4EIeUEe-ru6YB14sd8Q _9qxngIeXEe-QZOdYxFkDJg">
+    <modelElement href="SysModProject.uml#_XAJesHZdEe-b5bYGrWHT0A"/>
+    <visualProperties xmi:id="_XAMiAXZdEe-b5bYGrWHT0A" italic="true" lineWidth="3.0" position="1708.0,25.0" size="334.0,264.0"/>
+    <visibility xmi:id="_XAMiAnZdEe-b5bYGrWHT0A" label="+"/>
+    <attributes xmi:id="_DsE8QIeQEe-ru6YB14sd8Q" name="userID">
+      <modelElement href="SysModProject.uml#_Dr1EoIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_DsE8QYeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_DsFjUIeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_DsFjUYeQEe-ru6YB14sd8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IqglIIeQEe-ru6YB14sd8Q" name="firstname">
+      <modelElement href="SysModProject.uml#_IqTw0IeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_IqglIYeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_IqglIoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_IqglI4eQEe-ru6YB14sd8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LetLEIeQEe-ru6YB14sd8Q" name="surname">
+      <modelElement href="SysModProject.uml#_LejaEIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_LetLEYeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_LetLEoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_LetLE4eQEe-ru6YB14sd8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Pr0EsIeQEe-ru6YB14sd8Q" name="phoneNumber">
+      <modelElement href="SysModProject.uml#_PrwaUIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_Pr0EsYeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_Pr0EsoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Pr0Es4eQEe-ru6YB14sd8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QYx4YIeQEe-ru6YB14sd8Q" name="email">
+      <modelElement href="SysModProject.uml#_QYrKsIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_QYyfcIeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_QYzGgIeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_QYzGgYeQEe-ru6YB14sd8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RGn10IeQEe-ru6YB14sd8Q" name="password">
+      <modelElement href="SysModProject.uml#_RGjkYIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_RGn10YeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_RGn10oeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_RGn104eQEe-ru6YB14sd8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SNq9cIeQEe-ru6YB14sd8Q" name="validated">
+      <modelElement href="SysModProject.uml#_SNmsAIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_SNq9cYeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_SNq9coeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_SNq9c4eQEe-ru6YB14sd8Q" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SufLgIeQEe-ru6YB14sd8Q" name="login">
+      <modelElement href="SysModProject.uml#_SuXPsIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_SufLgYeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_SufLgoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_TWgNwIeQEe-ru6YB14sd8Q" name="logout">
+      <modelElement href="SysModProject.uml#_TWb8UIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_TWgNwYeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_TWgNwoeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_T7a4sIeQEe-ru6YB14sd8Q" name="viewProfile">
+      <modelElement href="SysModProject.uml#_T7YccIeQEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_T7a4sYeQEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_T7a4soeQEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pGK7AIeXEe-QZOdYxFkDJg" name="CSR" associationsOut="_ldz3wIeYEe-QZOdYxFkDJg" generalizations="_9qxngIeXEe-QZOdYxFkDJg">
+    <modelElement href="SysModProject.uml#_pGJs4IeXEe-QZOdYxFkDJg"/>
+    <visualProperties xmi:id="_pGK7AYeXEe-QZOdYxFkDJg" position="2161.0,480.0" size="489.0,250.0"/>
+    <visibility xmi:id="_pGK7AoeXEe-QZOdYxFkDJg" label="+"/>
+    <attributes xmi:id="_ujNLcIeXEe-QZOdYxFkDJg" name="employeeID">
+      <modelElement href="SysModProject.uml#_ujLWQIeXEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_ujNLcYeXEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_ujNLcoeXEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_wmPaMIeXEe-QZOdYxFkDJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ld1s8IeYEe-QZOdYxFkDJg" name="supportTicket">
+      <modelElement href="SysModProject.uml#_ldu_QYeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_ld1s8YeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_ld1s8oeYEe-QZOdYxFkDJg" label="*" max="-1"/>
+      <type xmi:id="_ld1s84eYEe-QZOdYxFkDJg" name="SupportTicket">
+        <modelElement href="SysModProject.uml#_EX-fUIeYEe-QZOdYxFkDJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_y-JFsIeXEe-QZOdYxFkDJg" name="respondToTicket">
+      <modelElement href="SysModProject.uml#_y-H3kIeXEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_y-JFsYeXEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_y-JFsoeXEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_5iKMUIeXEe-QZOdYxFkDJg" name="contactDriverOrPassenger">
+      <modelElement href="SysModProject.uml#_5iIXIIeXEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_5iKMUYeXEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_5iKMUoeXEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_5iKMU4eXEe-QZOdYxFkDJg" name="user">
+        <modelElement href="SysModProject.uml#_5iI-MIeXEe-QZOdYxFkDJg"/>
+        <cardinality xmi:id="_5iKMVIeXEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_5iKMVYeXEe-QZOdYxFkDJg" name="User">
+          <modelElement href="SysModProject.uml#_XAJesHZdEe-b5bYGrWHT0A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_5iKMVoeXEe-QZOdYxFkDJg" name="message">
+        <modelElement href="SysModProject.uml#_5iI-MYeXEe-QZOdYxFkDJg"/>
+        <cardinality xmi:id="_5iKMV4eXEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_5iKMWIeXEe-QZOdYxFkDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EX_tcIeYEe-QZOdYxFkDJg" name="SupportTicket" associationsIn="_ldz3wIeYEe-QZOdYxFkDJg _snAvEIeYEe-QZOdYxFkDJg">
+    <modelElement href="SysModProject.uml#_EX-fUIeYEe-QZOdYxFkDJg"/>
+    <visualProperties xmi:id="_EX_tcYeYEe-QZOdYxFkDJg" position="2302.0,861.0" size="350.0,279.0"/>
+    <visibility xmi:id="_EX_tcoeYEe-QZOdYxFkDJg" label="+"/>
+    <attributes xmi:id="_HntKsIeYEe-QZOdYxFkDJg" name="ticketID">
+      <modelElement href="SysModProject.uml#_Hnr8kIeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_HntKsYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_HntKsoeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_HntKs4eYEe-QZOdYxFkDJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_I6UCEIeYEe-QZOdYxFkDJg" name="userID">
+      <modelElement href="SysModProject.uml#_I6Sz8IeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_I6UCEYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_I6UCEoeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_I6UCE4eYEe-QZOdYxFkDJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_KYLHMIeYEe-QZOdYxFkDJg" name="issueDescription">
+      <modelElement href="SysModProject.uml#_KYJSAIeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_KYLHMYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_KYLHMoeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_KYLHM4eYEe-QZOdYxFkDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bb34wIeYEe-QZOdYxFkDJg" name="status">
+      <modelElement href="SysModProject.uml#_bb2qoIeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_bb34wYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_bb34woeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_bb34w4eYEe-QZOdYxFkDJg" name="TicketStatus">
+        <modelElement href="SysModProject.uml#_RYFfoIeYEe-QZOdYxFkDJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_c6H_cIeYEe-QZOdYxFkDJg" name="createdDate">
+      <modelElement href="SysModProject.uml#_c6HYYIeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_c6H_cYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_c6H_coeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_c6H_c4eYEe-QZOdYxFkDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_d0_FMIeYEe-QZOdYxFkDJg" name="resolvedDate">
+      <modelElement href="SysModProject.uml#_d093EIeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_d0_FMYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_d0_FMoeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_d0_FM4eYEe-QZOdYxFkDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ld0e0IeYEe-QZOdYxFkDJg" name="cSR">
+      <modelElement href="SysModProject.uml#_ldr78IeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_ld0e0YeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_ld0e0oeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_ld0e04eYEe-QZOdYxFkDJg" name="CSR">
+        <modelElement href="SysModProject.uml#_pGJs4IeXEe-QZOdYxFkDJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_snBWIIeYEe-QZOdYxFkDJg" name="rideRequest">
+      <modelElement href="SysModProject.uml#_sm-54YeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_snBWIYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_snBWIoeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_snBWI4eYEe-QZOdYxFkDJg" name="RideRequest">
+        <modelElement href="SysModProject.uml#_HLJOsIeREe-ru6YB14sd8Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_f8s_oIeYEe-QZOdYxFkDJg" name="createTicket">
+      <modelElement href="SysModProject.uml#_f8sYkIeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_f8tmsIeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_f8tmsYeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_f8tmsoeYEe-QZOdYxFkDJg" name="description">
+        <modelElement href="SysModProject.uml#_f8sYkYeYEe-QZOdYxFkDJg"/>
+        <cardinality xmi:id="_f8tms4eYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_f8tmtIeYEe-QZOdYxFkDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jtphsIeYEe-QZOdYxFkDJg" name="updateStatus">
+      <modelElement href="SysModProject.uml#_jto6oIeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_jtphsYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_jtphsoeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jtphs4eYEe-QZOdYxFkDJg" name="newStatus">
+        <modelElement href="SysModProject.uml#_jto6oYeYEe-QZOdYxFkDJg"/>
+        <cardinality xmi:id="_jtphtIeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_jtphtYeYEe-QZOdYxFkDJg" name="TicketStatus">
+          <modelElement href="SysModProject.uml#_RYFfoIeYEe-QZOdYxFkDJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_RYGGsIeYEe-QZOdYxFkDJg" name="TicketStatus">
+    <modelElement href="SysModProject.uml#_RYFfoIeYEe-QZOdYxFkDJg"/>
+    <visualProperties xmi:id="_RYGGsYeYEe-QZOdYxFkDJg" position="2675.0,900.0" size="151.0,181.0"/>
+    <visibility xmi:id="_RYGGsoeYEe-QZOdYxFkDJg" label="+"/>
+    <literals xmi:id="_VOeiYIeYEe-QZOdYxFkDJg" name="Open">
+      <modelElement href="SysModProject.uml#_VOaQ8IeYEe-QZOdYxFkDJg"/>
+    </literals>
+    <literals xmi:id="_WaMuoIeYEe-QZOdYxFkDJg" name="InProgress">
+      <modelElement href="SysModProject.uml#_WaLggIeYEe-QZOdYxFkDJg"/>
+    </literals>
+    <literals xmi:id="_XmdtcIeYEe-QZOdYxFkDJg" name="Closed">
+      <modelElement href="SysModProject.uml#_XmbRMIeYEe-QZOdYxFkDJg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HLMSAIeREe-ru6YB14sd8Q" name="RideRequest" associationsIn="_fpu9IIeUEe-ru6YB14sd8Q _zRp-8IeUEe-ru6YB14sd8Q" associationsOut="_snAvEIeYEe-QZOdYxFkDJg">
+    <modelElement href="SysModProject.uml#_HLJOsIeREe-ru6YB14sd8Q"/>
+    <visualProperties xmi:id="_HLM5EIeREe-ru6YB14sd8Q" position="1367.0,825.0" size="503.0,283.0"/>
+    <visibility xmi:id="_HLM5EYeREe-ru6YB14sd8Q" label="+"/>
+    <attributes xmi:id="_M1TVIIeREe-ru6YB14sd8Q" name="requestID">
+      <modelElement href="SysModProject.uml#_M1N1kIeREe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_M1TVIYeREe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_M1TVIoeREe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_M1TVI4eREe-ru6YB14sd8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NcLu8IeREe-ru6YB14sd8Q" name="passengerID">
+      <modelElement href="SysModProject.uml#_NcJSsIeREe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_NcLu8YeREe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_NcLu8oeREe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_NcLu84eREe-ru6YB14sd8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ObTCkIeREe-ru6YB14sd8Q" name="driverID">
+      <modelElement href="SysModProject.uml#_ObQmUIeREe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_ObTCkYeREe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_ObTCkoeREe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_ObTCk4eREe-ru6YB14sd8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wJtogIeSEe-ru6YB14sd8Q" name="status">
+      <modelElement href="SysModProject.uml#_wJQ8kIeSEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_wJu2oIeSEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_wJu2oYeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_wJvdsIeSEe-ru6YB14sd8Q" name="RideStatus">
+        <modelElement href="SysModProject.uml#_aVYZgIeSEe-ru6YB14sd8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xb8scIeSEe-ru6YB14sd8Q" name="pickUpLocation">
+      <modelElement href="SysModProject.uml#_xb3M4IeSEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_xb8scYeSEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_xb8scoeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_xb9TgIeSEe-ru6YB14sd8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_y8uisIeSEe-ru6YB14sd8Q" name="dropOffLocation">
+      <modelElement href="SysModProject.uml#_y8rfYIeSEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_y8uisYeSEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_y8uisoeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_y8uis4eSEe-ru6YB14sd8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2zCs8IeSEe-ru6YB14sd8Q" name="pickupTime">
+      <modelElement href="SysModProject.uml#_2y_CkIeSEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_2zDUAIeSEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_2zDUAYeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_2zDUAoeSEe-ru6YB14sd8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Cp0tsIeTEe-ru6YB14sd8Q" name="dropOffTime">
+      <modelElement href="SysModProject.uml#_CpxDUIeTEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_Cp0tsYeTEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_Cp0tsoeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Cp0ts4eTEe-ru6YB14sd8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fp4HEIeUEe-ru6YB14sd8Q" name="passenger">
+      <modelElement href="SysModProject.uml#_fodx0IeUEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_fp4HEYeUEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_fp4HEoeUEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_fp4uIIeUEe-ru6YB14sd8Q" name="Passenger">
+        <modelElement href="SysModProject.uml#_XN5WEIeQEe-ru6YB14sd8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zRr0IIeUEe-ru6YB14sd8Q" name="driver">
+      <modelElement href="SysModProject.uml#_zRdKoIeUEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_zRr0IYeUEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_zRr0IoeUEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_zRr0I4eUEe-ru6YB14sd8Q" name="Driver">
+        <modelElement href="SysModProject.uml#_wBTlUIeQEe-ru6YB14sd8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_snB9MIeYEe-QZOdYxFkDJg" name="supportTicket">
+      <modelElement href="SysModProject.uml#_sm_g8YeYEe-QZOdYxFkDJg"/>
+      <visibility xmi:id="_snB9MYeYEe-QZOdYxFkDJg" label="+"/>
+      <cardinality xmi:id="_snB9MoeYEe-QZOdYxFkDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_snB9M4eYEe-QZOdYxFkDJg" name="SupportTicket">
+        <modelElement href="SysModProject.uml#_EX-fUIeYEe-QZOdYxFkDJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OjlxAIeTEe-ru6YB14sd8Q" name="updateStatus">
+      <modelElement href="SysModProject.uml#_OjdOIIeTEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_OjmYEIeTEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_OjmYEYeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OjmYEoeTEe-ru6YB14sd8Q" name="newStatus">
+        <modelElement href="SysModProject.uml#_OjfqYIeTEe-ru6YB14sd8Q"/>
+        <cardinality xmi:id="_OjmYE4eTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_OjmYFIeTEe-ru6YB14sd8Q" name="RideStatus">
+          <modelElement href="SysModProject.uml#_aVYZgIeSEe-ru6YB14sd8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QdhuIIeTEe-ru6YB14sd8Q" name="calculateFare">
+      <modelElement href="SysModProject.uml#_QdcOkIeTEe-ru6YB14sd8Q"/>
+      <visibility xmi:id="_QdhuIYeTEe-ru6YB14sd8Q" label="+"/>
+      <cardinality xmi:id="_QdhuIoeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UFZMsIeTEe-ru6YB14sd8Q">
+        <modelElement href="SysModProject.uml#_UFM_cIeTEe-ru6YB14sd8Q"/>
+        <type xmi:id="_UFZMsYeTEe-ru6YB14sd8Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_QdhuI4eTEe-ru6YB14sd8Q" name="distance">
+        <modelElement href="SysModProject.uml#_QdeDwIeTEe-ru6YB14sd8Q"/>
+        <cardinality xmi:id="_QdhuJIeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_QdhuJYeTEe-ru6YB14sd8Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UFdeIIeTEe-ru6YB14sd8Q" name="duration">
+        <modelElement href="SysModProject.uml#_UFWJYIeTEe-ru6YB14sd8Q"/>
+        <cardinality xmi:id="_UFdeIYeTEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_UFdeIoeTEe-ru6YB14sd8Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_aVcq8IeSEe-ru6YB14sd8Q" name="RideStatus">
     <modelElement href="SysModProject.uml#_aVYZgIeSEe-ru6YB14sd8Q"/>
-    <visualProperties xmi:id="_aVcq8YeSEe-ru6YB14sd8Q" position="1158.0,974.0" size="169.0,157.0"/>
+    <visualProperties xmi:id="_aVcq8YeSEe-ru6YB14sd8Q" position="1081.0,902.0" size="245.0,228.0"/>
     <visibility xmi:id="_aVcq8oeSEe-ru6YB14sd8Q" label="+"/>
-    <attributes xmi:id="_m8jVYIeSEe-ru6YB14sd8Q" name="Pending">
-      <modelElement href="SysModProject.uml#_m8cnsIeSEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_m8j8cIeSEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_m8j8cYeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-    </attributes>
-    <attributes xmi:id="_oq9X8IeSEe-ru6YB14sd8Q" name="Approved">
-      <modelElement href="SysModProject.uml#_oq7iwIeSEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_oq9X8YeSEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_oq9X8oeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-    </attributes>
-    <attributes xmi:id="_puyMcIeSEe-ru6YB14sd8Q" name="Completed">
-      <modelElement href="SysModProject.uml#_puuiEIeSEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_puyMcYeSEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_puyMcoeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-    </attributes>
-    <attributes xmi:id="_qbHuAIeSEe-ru6YB14sd8Q" name="Cancelled">
-      <modelElement href="SysModProject.uml#_qbEqsIeSEe-ru6YB14sd8Q"/>
-      <visibility xmi:id="_qbHuAYeSEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_qbHuAoeSEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
-    </attributes>
+    <literals xmi:id="_4-awoIeYEe-QZOdYxFkDJg" name="Pending">
+      <modelElement href="SysModProject.uml#_4-ZigIeYEe-QZOdYxFkDJg"/>
+    </literals>
+    <literals xmi:id="_6WtZQIeYEe-QZOdYxFkDJg" name="Approved">
+      <modelElement href="SysModProject.uml#_6WsyMIeYEe-QZOdYxFkDJg"/>
+    </literals>
+    <literals xmi:id="_7ihFEIeYEe-QZOdYxFkDJg" name="Completed">
+      <modelElement href="SysModProject.uml#_7if28IeYEe-QZOdYxFkDJg"/>
+    </literals>
+    <literals xmi:id="_8yjJkIeYEe-QZOdYxFkDJg" name="Cancelled">
+      <modelElement href="SysModProject.uml#_8yiigIeYEe-QZOdYxFkDJg"/>
+    </literals>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
