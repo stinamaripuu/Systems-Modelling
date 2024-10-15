@@ -126,8 +126,8 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_zRe_0YeUEe-ru6YB14sd8Q" name="rideRequest" type="_HLJOsIeREe-ru6YB14sd8Q" association="_zRauYIeUEe-ru6YB14sd8Q">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zRfm4IeUEe-ru6YB14sd8Q" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zRfm4YeUEe-ru6YB14sd8Q" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zRfm4IeUEe-ru6YB14sd8Q"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zRfm4YeUEe-ru6YB14sd8Q" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_8IlB4ofMEe-xtqHyFbNN3A" name="communication" type="_CVJjwIfLEe-xtqHyFbNN3A" association="_8Ika0IfMEe-xtqHyFbNN3A">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8IlB44fMEe-xtqHyFbNN3A"/>

@@ -46,7 +46,7 @@
       <modelElement href="SysModProject.uml#_zRe_0YeUEe-ru6YB14sd8Q"/>
       <visualProperties xmi:id="_zT-6MYeUEe-ru6YB14sd8Q" position="2.0,-68.0"/>
       <visibility xmi:id="_zRqmA4eUEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_zRqmBIeUEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <cardinality xmi:id="_zRqmBIeUEe-ru6YB14sd8Q" label="*" max="-1"/>
     </targetRole>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_9qxngIeXEe-QZOdYxFkDJg" sourceAnchor="183.0,0.0" targetAnchor="169.0,238.0" superClass="_XAMiAHZdEe-b5bYGrWHT0A" subClass="_pGK7AIeXEe-QZOdYxFkDJg">
@@ -246,7 +246,7 @@
     <attributes xmi:id="_zRuQYIeUEe-ru6YB14sd8Q" name="rideRequest">
       <modelElement href="SysModProject.uml#_zRe_0YeUEe-ru6YB14sd8Q"/>
       <visibility xmi:id="_zRuQYYeUEe-ru6YB14sd8Q" label="+"/>
-      <cardinality xmi:id="_zRuQYoeUEe-ru6YB14sd8Q" label="1" max="1" min="1"/>
+      <cardinality xmi:id="_zRuQYoeUEe-ru6YB14sd8Q" label="*" max="-1"/>
       <type xmi:id="_zRuQY4eUEe-ru6YB14sd8Q" name="RideRequest">
         <modelElement href="SysModProject.uml#_HLJOsIeREe-ru6YB14sd8Q"/>
       </type>
